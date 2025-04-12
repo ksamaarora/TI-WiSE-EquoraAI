@@ -1,0 +1,159 @@
+[
+  {
+    "id": "sub_1744457981441",
+    "email": "test@example.com",
+    "name": "Test User",
+    "topics": [
+      "market-sentiment",
+      "technical-analysis",
+      "stock-performance"
+    ],
+    "sources": [],
+    "frequency": "weekly",
+    "isActive": true,
+    "createdAt": "2025-04-12T11:39:41.441Z",
+    "updatedAt": "2025-04-12T11:39:41.441Z"
+  },
+  {
+    "id": "sub_1744458357665",
+    "email": "test2@example.com",
+    "name": "Test User 2",
+    "topics": [
+      "market-sentiment",
+      "technical-analysis",
+      "stock-performance"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T11:45:57.665Z",
+    "updatedAt": "2025-04-12T11:45:57.665Z"
+  },
+  {
+    "id": "sub_1744458414846",
+    "email": "arora.ananya05@gmail.com",
+    "name": "",
+    "topics": [
+      "sector-analysis",
+      "top-stocks",
+      "news-digest"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T11:46:54.846Z",
+    "updatedAt": "2025-04-12T12:00:53.694Z"
+  },
+  {
+    "id": "sub_1744458869309",
+    "email": "ananya026btcse22@igdtuw.ac.in",
+    "name": "",
+    "topics": [
+      "sector-analysis",
+      "top-stocks",
+      "news-digest"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T11:54:29.309Z",
+    "updatedAt": "2025-04-12T12:01:14.592Z"
+  },
+  {
+    "id": "sub_1744459124522",
+    "email": "arora.ananya05+test@gmail.com",
+    "name": "Ananya Test",
+    "topics": [
+      "sector-analysis",
+      "top-stocks",
+      "news-digest"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T11:58:44.522Z",
+    "updatedAt": "2025-04-12T11:59:07.279Z"
+  },
+  {
+    "id": "sub_1744459316100",
+    "email": "ananyaenactus@gmail.com",
+    "name": "",
+    "topics": [
+      "sector-analysis",
+      "top-stocks",
+      "news-digest"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T12:01:56.100Z",
+    "updatedAt": "2025-04-12T12:32:16.137Z"
+  },
+  {
+    "id": "sub_1744459562085",
+    "email": "arora.ananya05+test2@gmail.com",
+    "name": "Ananya Test",
+    "topics": [
+      "sector-analysis",
+      "top-stocks",
+      "news-digest"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T12:06:02.085Z",
+    "updatedAt": "2025-04-12T12:06:02.085Z"
+  },
+  {
+    "id": "sub_1744459968252",
+    "email": "test.1744459968235@example.com",
+    "name": "API Test",
+    "topics": [
+      "test-topic"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T12:12:48.252Z",
+    "updatedAt": "2025-04-12T12:12:48.252Z"
+  },
+  {
+    "id": "sub_1744459969326",
+    "email": "test.1744459969324@example.com",
+    "name": "API Test",
+    "topics": [
+      "test-topic"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T12:12:49.326Z",
+    "updatedAt": "2025-04-12T12:12:49.326Z"
+  },
+  {
+    "id": "sub_1744461152961",
+    "email": "equoraai@gmail.com",
+    "name": "",
+    "topics": [
+      "sector-analysis",
+      "top-stocks",
+      "news-digest"
+    ],
+    "sources": [],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2025-04-12T12:32:32.961Z",
+    "updatedAt": "2025-04-12T12:32:32.961Z"
+  },
+  {
+    "id": "sub_1234567890",
+    "email": "your@email.com",
+    "name": "Your Name",
+    "topics": ["market analysis", "stocks"],
+    "sources": ["news", "twitter"],
+    "frequency": "daily",
+    "isActive": true,
+    "createdAt": "2023-07-01T12:00:00.000Z",
+    "updatedAt": "2023-07-01T12:00:00.000Z"
+  }
+]

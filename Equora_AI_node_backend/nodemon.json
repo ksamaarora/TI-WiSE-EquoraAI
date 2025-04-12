@@ -1,0 +1,4 @@
+{
+  "ignore": ["src/data/*", "*.json"],
+  "delay": "1000"
+} 

@@ -1,0 +1,149 @@
+/* Accessibility CSS Styles */
+
+/* Font size variations */
+:root.text-normal {
+  font-size: 16px;
+}
+
+:root.text-large {
+  font-size: 20px;
+}
+
+:root.text-x-large {
+  font-size: 24px;
+}
+
+/* High contrast mode */
+:root.high-contrast {
+  --background-color: #000;
+  --text-color: #fff;
+  --link-color: #ffff00;
+  --border-color: #fff;
+  --focus-color: #ffff00;
+}
+
+:root.high-contrast body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+:root.high-contrast a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+:root.high-contrast button,
+:root.high-contrast input,
+:root.high-contrast select,
+:root.high-contrast textarea {
+  border: 2px solid var(--border-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+:root.high-contrast *:focus {
+  outline: 3px solid var(--focus-color);
+  outline-offset: 2px;
+}
+
+/* Accessibility panel styles */
+.accessibility-panel {
+  position: fixed;
+  top: 64px; /* Position below the header */
+  right: 0;
+  background-color: white;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  z-index: 50;
+  width: 300px;
+  height: calc(100vh - 64px); /* Adjust height to account for header */
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.accessibility-panel.open {
+  transform: translateX(0);
+}
+
+/* Header accessibility button styles */
+.header-accessibility-button {
+  color: white;
+}
+
+/* Focus outline for keyboard navigation */
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* Dark mode specific styles */
+:root.dark {
+  color-scheme: dark;
+}
+
+:root.dark body {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+/* ARIA-specific styles for skip links */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #2563eb;
+  color: white;
+  padding: 8px;
+  z-index: 1001;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Improve visibility of focus for keyboard users */
+.focus-ring {
+  outline: none;
+  box-shadow: 0 0 0 2px #2563eb;
+}
+
+/* Styles for speech recognition indicator */
+.speech-indicator {
+  position: fixed;
+  bottom: 20px; /* Moved back to bottom now that we don't have the button there */
+  right: 20px;
+  padding: 8px 16px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 49;
+}
+
+.speech-indicator-pulse {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff4444;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.9;
+  }
+} 

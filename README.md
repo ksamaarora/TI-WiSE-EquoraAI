@@ -1,1 +1,1 @@
-# TI-WiSE-EquoraAI
+# TIWiSE-Equora-Ai

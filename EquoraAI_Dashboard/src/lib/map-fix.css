@@ -1,0 +1,28 @@
+/* Fix for map z-index issues */
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+  z-index: 10 !important; /* Lower z-index for map components */
+}
+
+.leaflet-tooltip {
+  z-index: 15 !important; /* Tooltips need to be above map layers but below UI controls */
+}
+
+.leaflet-control {
+  z-index: 20 !important; /* Controls slightly higher than map but lower than UI components */
+}
+
+/* Ensure accessibility panel and chat remain above the map */
+.accessibility-panel,
+.skip-link,
+.speech-indicator {
+  z-index: 1000 !important; /* Very high z-index for accessibility features */
+} 
